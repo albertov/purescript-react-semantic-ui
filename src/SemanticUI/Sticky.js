@@ -1,3 +1,3 @@
 // module SemanticUI.Sticky
 
-exports.stickyClass = require('semantic-ui-react/dist/commonjs/modules/Sticky/Sticky').default;
+exports.stickyClass = require('semantic-ui-react/modules/Sticky/Sticky').default;

@@ -1,3 +1,3 @@
 // module SemanticUI.ItemExtra
 
-exports.itemExtraClass = require('semantic-ui-react/dist/commonjs/views/Item/ItemExtra').default;
+exports.itemExtraClass = require('semantic-ui-react/views/Item/ItemExtra').default;

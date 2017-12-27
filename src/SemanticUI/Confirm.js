@@ -1,3 +1,3 @@
 // module SemanticUI.Confirm
 
-exports.confirmClass = require('semantic-ui-react/dist/commonjs/addons/Confirm/Confirm').default;
+exports.confirmClass = require('semantic-ui-react/addons/Confirm/Confirm').default;

@@ -1,3 +1,3 @@
 // module SemanticUI.ModalHeader
 
-exports.modalHeaderClass = require('semantic-ui-react/dist/commonjs/modules/Modal/ModalHeader').default;
+exports.modalHeaderClass = require('semantic-ui-react/modules/Modal/ModalHeader').default;

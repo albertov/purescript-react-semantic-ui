@@ -1,3 +1,3 @@
 // module SemanticUI.TableBody
 
-exports.tableBodyClass = require('semantic-ui-react/dist/commonjs/collections/Table/TableBody').default;
+exports.tableBodyClass = require('semantic-ui-react/collections/Table/TableBody').default;

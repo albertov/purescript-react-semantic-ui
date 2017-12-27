@@ -1,3 +1,3 @@
 // module SemanticUI.Item
 
-exports.itemClass = require('semantic-ui-react/dist/commonjs/views/Item/Item').default;
+exports.itemClass = require('semantic-ui-react/views/Item/Item').default;

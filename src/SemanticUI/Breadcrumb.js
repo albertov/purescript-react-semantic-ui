@@ -1,3 +1,3 @@
 // module SemanticUI.Breadcrumb
 
-exports.breadcrumbClass = require('semantic-ui-react/dist/commonjs/collections/Breadcrumb/Breadcrumb').default;
+exports.breadcrumbClass = require('semantic-ui-react/collections/Breadcrumb/Breadcrumb').default;

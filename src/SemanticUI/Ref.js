@@ -1,3 +1,3 @@
 // module SemanticUI.Ref
 
-exports.refClass = require('semantic-ui-react/dist/commonjs/addons/Ref/Ref').default;
+exports.refClass = require('semantic-ui-react/addons/Ref/Ref').default;

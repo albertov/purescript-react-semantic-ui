@@ -1,3 +1,3 @@
 // module SemanticUI.PopupHeader
 
-exports.popupHeaderClass = require('semantic-ui-react/dist/commonjs/modules/Popup/PopupHeader').default;
+exports.popupHeaderClass = require('semantic-ui-react/modules/Popup/PopupHeader').default;

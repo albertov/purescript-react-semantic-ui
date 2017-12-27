@@ -1,3 +1,3 @@
 // module SemanticUI.CardGroup
 
-exports.cardGroupClass = require('semantic-ui-react/dist/commonjs/views/Card/CardGroup').default;
+exports.cardGroupClass = require('semantic-ui-react/views/Card/CardGroup').default;

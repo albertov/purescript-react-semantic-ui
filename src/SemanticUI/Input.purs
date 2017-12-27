@@ -9,8 +9,8 @@ foreign import data InputOption :: Type
 newtype InputProps = InputProps Foreign
 inputProps :: Options InputOption -> InputProps
 inputProps = InputProps <<< options
-inputOpts :: Options InputOption -> Array ReactElement -> ReactElement
-inputOpts opts = createElement inputClass (inputProps opts)
+input :: Options InputOption -> Array ReactElement -> ReactElement
+input opts = createElement inputClass (inputProps opts)
 as :: Option InputOption (UnknownType)
 as = opt "as" -- custom
 action :: Option InputOption (UnknownType)
@@ -33,8 +33,8 @@ icon :: Option InputOption (UnknownType)
 icon = opt "icon" -- union
 iconPosition :: Option InputOption (UnknownType)
 iconPosition = opt "iconPosition" -- enum
-input :: Option InputOption (UnknownType)
-input = opt "input" -- custom
+input_ :: Option InputOption (UnknownType)
+input_ = opt "input" -- custom
 inverted :: Option InputOption (Boolean)
 inverted = opt "inverted"
 label :: Option InputOption (UnknownType)

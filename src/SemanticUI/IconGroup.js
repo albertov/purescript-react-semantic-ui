@@ -1,3 +1,3 @@
 // module SemanticUI.IconGroup
 
-exports.iconGroupClass = require('semantic-ui-react/dist/commonjs/elements/Icon/IconGroup').default;
+exports.iconGroupClass = require('semantic-ui-react/elements/Icon/IconGroup').default;

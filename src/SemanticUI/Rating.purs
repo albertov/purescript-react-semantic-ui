@@ -9,8 +9,8 @@ foreign import data RatingOption :: Type
 newtype RatingProps = RatingProps Foreign
 ratingProps :: Options RatingOption -> RatingProps
 ratingProps = RatingProps <<< options
-ratingOpts :: Options RatingOption -> Array ReactElement -> ReactElement
-ratingOpts opts = createElement ratingClass (ratingProps opts)
+rating :: Options RatingOption -> Array ReactElement -> ReactElement
+rating opts = createElement ratingClass (ratingProps opts)
 as :: Option RatingOption (UnknownType)
 as = opt "as" -- custom
 className :: Option RatingOption (String)
@@ -27,7 +27,7 @@ maxRating :: Option RatingOption (UnknownType)
 maxRating = opt "maxRating" -- union
 onRate :: Option RatingOption (EventHandlerOpt)
 onRate = opt "onRate"
-rating :: Option RatingOption (UnknownType)
-rating = opt "rating" -- union
+rating_ :: Option RatingOption (UnknownType)
+rating_ = opt "rating" -- union
 size :: Option RatingOption (UnknownType)
 size = opt "size" -- enum

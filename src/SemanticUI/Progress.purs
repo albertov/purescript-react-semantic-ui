@@ -9,8 +9,8 @@ foreign import data ProgressOption :: Type
 newtype ProgressProps = ProgressProps Foreign
 progressProps :: Options ProgressOption -> ProgressProps
 progressProps = ProgressProps <<< options
-progressOpts :: Options ProgressOption -> Array ReactElement -> ReactElement
-progressOpts opts = createElement progressClass (progressProps opts)
+progress :: Options ProgressOption -> Array ReactElement -> ReactElement
+progress opts = createElement progressClass (progressProps opts)
 as :: Option ProgressOption (UnknownType)
 as = opt "as" -- custom
 active :: Option ProgressOption (Boolean)
@@ -41,8 +41,8 @@ percent :: Option ProgressOption (UnknownType)
 percent = opt "percent" -- custom
 precision :: Option ProgressOption (Number)
 precision = opt "precision"
-progress :: Option ProgressOption (UnknownType)
-progress = opt "progress" -- union
+progress_ :: Option ProgressOption (UnknownType)
+progress_ = opt "progress" -- union
 size :: Option ProgressOption (UnknownType)
 size = opt "size" -- enum
 success :: Option ProgressOption (Boolean)

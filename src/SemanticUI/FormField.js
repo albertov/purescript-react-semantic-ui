@@ -1,3 +1,3 @@
 // module SemanticUI.FormField
 
-exports.formFieldClass = require('semantic-ui-react/dist/commonjs/collections/Form/FormField').default;
+exports.formFieldClass = require('semantic-ui-react/collections/Form/FormField').default;

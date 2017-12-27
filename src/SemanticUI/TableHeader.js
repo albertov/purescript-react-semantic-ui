@@ -1,3 +1,3 @@
 // module SemanticUI.TableHeader
 
-exports.tableHeaderClass = require('semantic-ui-react/dist/commonjs/collections/Table/TableHeader').default;
+exports.tableHeaderClass = require('semantic-ui-react/collections/Table/TableHeader').default;

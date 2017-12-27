@@ -1,15 +1,14 @@
 module SemanticUI.Dropdown where
 import Prelude (Unit, unit, (<<<))
 import React (EventHandler, ReactClass, ReactElement, createElement)
-import Data.Options (Option, Options, opt)
-import Data.Options (options) as Options
+import Data.Options (Option, Options, opt, options)
 import Data.Foreign (Foreign)
 import SemanticUI (EventHandlerOpt, UnknownType, Node)
 foreign import dropdownClass :: ReactClass DropdownProps
 foreign import data DropdownOption :: Type
 newtype DropdownProps = DropdownProps Foreign
 dropdownProps :: Options DropdownOption -> DropdownProps
-dropdownProps = DropdownProps <<< Options.options
+dropdownProps = DropdownProps <<< options
 dropdown :: Options DropdownOption -> Array ReactElement -> ReactElement
 dropdown opts = createElement dropdownClass (dropdownProps opts)
 as :: Option DropdownOption (UnknownType)
@@ -94,8 +93,8 @@ open :: Option DropdownOption (Boolean)
 open = opt "open"
 openOnFocus :: Option DropdownOption (Boolean)
 openOnFocus = opt "openOnFocus"
-options :: Option DropdownOption (UnknownType)
-options = opt "options" -- custom
+options_ :: Option DropdownOption (UnknownType)
+options_ = opt "options" -- custom
 placeholder :: Option DropdownOption (String)
 placeholder = opt "placeholder"
 pointing :: Option DropdownOption (UnknownType)
