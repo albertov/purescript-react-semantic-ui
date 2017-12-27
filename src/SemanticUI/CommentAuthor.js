@@ -1,3 +1,3 @@
 // module SemanticUI.CommentAuthor
 
-exports.commentAuthorClass = require('semantic-ui-react/../src/views/Comment/CommentAuthor').default;
+exports.commentAuthorClass = require('semantic-ui-react/dist/../src/views/Comment/CommentAuthor').default;

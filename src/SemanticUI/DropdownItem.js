@@ -1,3 +1,3 @@
 // module SemanticUI.DropdownItem
 
-exports.dropdownItemClass = require('semantic-ui-react/../src/modules/Dropdown/DropdownItem').default;
+exports.dropdownItemClass = require('semantic-ui-react/dist/../src/modules/Dropdown/DropdownItem').default;

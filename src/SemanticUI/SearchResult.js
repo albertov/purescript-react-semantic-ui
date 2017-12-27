@@ -1,3 +1,3 @@
 // module SemanticUI.SearchResult
 
-exports.searchResultClass = require('semantic-ui-react/../src/modules/Search/SearchResult').default;
+exports.searchResultClass = require('semantic-ui-react/dist/../src/modules/Search/SearchResult').default;

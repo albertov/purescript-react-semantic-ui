@@ -1,3 +1,3 @@
 // module SemanticUI.GridColumn
 
-exports.gridColumnClass = require('semantic-ui-react/../src/collections/Grid/GridColumn').default;
+exports.gridColumnClass = require('semantic-ui-react/dist/../src/collections/Grid/GridColumn').default;

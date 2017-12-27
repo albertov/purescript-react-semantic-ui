@@ -1,3 +1,3 @@
 // module SemanticUI.AccordionAccordion
 
-exports.accordionAccordionClass = require('semantic-ui-react/../src/modules/Accordion/AccordionAccordion').default;
+exports.accordionAccordionClass = require('semantic-ui-react/dist/../src/modules/Accordion/AccordionAccordion').default;

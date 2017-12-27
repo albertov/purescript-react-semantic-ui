@@ -1,3 +1,3 @@
 // module SemanticUI.FormCheckbox
 
-exports.formCheckboxClass = require('semantic-ui-react/../src/collections/Form/FormCheckbox').default;
+exports.formCheckboxClass = require('semantic-ui-react/dist/../src/collections/Form/FormCheckbox').default;

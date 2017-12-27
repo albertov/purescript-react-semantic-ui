@@ -1,3 +1,3 @@
 // module SemanticUI.Modal
 
-exports.modalClass = require('semantic-ui-react/../src/modules/Modal/Modal').default;
+exports.modalClass = require('semantic-ui-react/dist/../src/modules/Modal/Modal').default;

@@ -1,3 +1,3 @@
 // module SemanticUI.ImageGroup
 
-exports.imageGroupClass = require('semantic-ui-react/../src/elements/Image/ImageGroup').default;
+exports.imageGroupClass = require('semantic-ui-react/dist/../src/elements/Image/ImageGroup').default;

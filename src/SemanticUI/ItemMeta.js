@@ -1,3 +1,3 @@
 // module SemanticUI.ItemMeta
 
-exports.itemMetaClass = require('semantic-ui-react/../src/views/Item/ItemMeta').default;
+exports.itemMetaClass = require('semantic-ui-react/dist/../src/views/Item/ItemMeta').default;

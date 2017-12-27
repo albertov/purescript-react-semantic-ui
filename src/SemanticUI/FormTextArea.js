@@ -1,3 +1,3 @@
 // module SemanticUI.FormTextArea
 
-exports.formTextAreaClass = require('semantic-ui-react/../src/collections/Form/FormTextArea').default;
+exports.formTextAreaClass = require('semantic-ui-react/dist/../src/collections/Form/FormTextArea').default;

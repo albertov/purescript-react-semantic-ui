@@ -1,3 +1,3 @@
 // module SemanticUI.ItemGroup
 
-exports.itemGroupClass = require('semantic-ui-react/../src/views/Item/ItemGroup').default;
+exports.itemGroupClass = require('semantic-ui-react/dist/../src/views/Item/ItemGroup').default;

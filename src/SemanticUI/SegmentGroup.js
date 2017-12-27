@@ -1,3 +1,3 @@
 // module SemanticUI.SegmentGroup
 
-exports.segmentGroupClass = require('semantic-ui-react/../src/elements/Segment/SegmentGroup').default;
+exports.segmentGroupClass = require('semantic-ui-react/dist/../src/elements/Segment/SegmentGroup').default;

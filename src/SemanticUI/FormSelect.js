@@ -1,3 +1,3 @@
 // module SemanticUI.FormSelect
 
-exports.formSelectClass = require('semantic-ui-react/../src/collections/Form/FormSelect').default;
+exports.formSelectClass = require('semantic-ui-react/dist/../src/collections/Form/FormSelect').default;

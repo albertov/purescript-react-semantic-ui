@@ -1,3 +1,3 @@
 // module SemanticUI.Checkbox
 
-exports.checkboxClass = require('semantic-ui-react/../src/modules/Checkbox/Checkbox').default;
+exports.checkboxClass = require('semantic-ui-react/dist/../src/modules/Checkbox/Checkbox').default;

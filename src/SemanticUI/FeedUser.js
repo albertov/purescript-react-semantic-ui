@@ -1,3 +1,3 @@
 // module SemanticUI.FeedUser
 
-exports.feedUserClass = require('semantic-ui-react/../src/views/Feed/FeedUser').default;
+exports.feedUserClass = require('semantic-ui-react/dist/../src/views/Feed/FeedUser').default;

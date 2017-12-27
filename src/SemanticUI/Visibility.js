@@ -1,3 +1,3 @@
 // module SemanticUI.Visibility
 
-exports.visibilityClass = require('semantic-ui-react/../src/behaviors/Visibility/Visibility').default;
+exports.visibilityClass = require('semantic-ui-react/dist/../src/behaviors/Visibility/Visibility').default;

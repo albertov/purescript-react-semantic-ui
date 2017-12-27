@@ -1,3 +1,3 @@
 // module SemanticUI.MenuMenu
 
-exports.menuMenuClass = require('semantic-ui-react/../src/collections/Menu/MenuMenu').default;
+exports.menuMenuClass = require('semantic-ui-react/dist/../src/collections/Menu/MenuMenu').default;

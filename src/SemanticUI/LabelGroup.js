@@ -1,3 +1,3 @@
 // module SemanticUI.LabelGroup
 
-exports.labelGroupClass = require('semantic-ui-react/../src/elements/Label/LabelGroup').default;
+exports.labelGroupClass = require('semantic-ui-react/dist/../src/elements/Label/LabelGroup').default;

@@ -1,3 +1,3 @@
 // module SemanticUI.CommentGroup
 
-exports.commentGroupClass = require('semantic-ui-react/../src/views/Comment/CommentGroup').default;
+exports.commentGroupClass = require('semantic-ui-react/dist/../src/views/Comment/CommentGroup').default;

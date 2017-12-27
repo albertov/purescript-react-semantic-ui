@@ -1,3 +1,3 @@
 // module SemanticUI.Portal
 
-exports.portalClass = require('semantic-ui-react/../src/addons/Portal/Portal').default;
+exports.portalClass = require('semantic-ui-react/dist/../src/addons/Portal/Portal').default;

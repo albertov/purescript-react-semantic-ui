@@ -1,3 +1,3 @@
 // module SemanticUI.DropdownSearchInput
 
-exports.dropdownSearchInputClass = require('semantic-ui-react/../src/modules/Dropdown/DropdownSearchInput').default;
+exports.dropdownSearchInputClass = require('semantic-ui-react/dist/../src/modules/Dropdown/DropdownSearchInput').default;
