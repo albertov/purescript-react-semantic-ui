@@ -1,3 +1,3 @@
 // module SemanticUI.MessageContent
 
-exports.messageContentClass = require('semantic-ui-react/dist/../src/collections/Message/MessageContent').default;
+exports.messageContentClass = require('semantic-ui-react/dist/commonjs/collections/Message/MessageContent').default;

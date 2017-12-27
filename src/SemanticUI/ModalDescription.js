@@ -1,3 +1,3 @@
 // module SemanticUI.ModalDescription
 
-exports.modalDescriptionClass = require('semantic-ui-react/dist/../src/modules/Modal/ModalDescription').default;
+exports.modalDescriptionClass = require('semantic-ui-react/dist/commonjs/modules/Modal/ModalDescription').default;

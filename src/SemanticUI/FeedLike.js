@@ -1,3 +1,3 @@
 // module SemanticUI.FeedLike
 
-exports.feedLikeClass = require('semantic-ui-react/dist/../src/views/Feed/FeedLike').default;
+exports.feedLikeClass = require('semantic-ui-react/dist/commonjs/views/Feed/FeedLike').default;

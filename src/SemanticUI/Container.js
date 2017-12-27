@@ -1,3 +1,3 @@
 // module SemanticUI.Container
 
-exports.containerClass = require('semantic-ui-react/dist/../src/elements/Container/Container').default;
+exports.containerClass = require('semantic-ui-react/dist/commonjs/elements/Container/Container').default;

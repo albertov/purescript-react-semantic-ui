@@ -1,3 +1,3 @@
 // module SemanticUI.Sidebar
 
-exports.sidebarClass = require('semantic-ui-react/dist/../src/modules/Sidebar/Sidebar').default;
+exports.sidebarClass = require('semantic-ui-react/dist/commonjs/modules/Sidebar/Sidebar').default;

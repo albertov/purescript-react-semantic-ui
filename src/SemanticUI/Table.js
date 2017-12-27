@@ -1,3 +1,3 @@
 // module SemanticUI.Table
 
-exports.tableClass = require('semantic-ui-react/dist/../src/collections/Table/Table').default;
+exports.tableClass = require('semantic-ui-react/dist/commonjs/collections/Table/Table').default;

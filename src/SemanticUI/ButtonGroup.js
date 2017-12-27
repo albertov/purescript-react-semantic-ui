@@ -1,3 +1,3 @@
 // module SemanticUI.ButtonGroup
 
-exports.buttonGroupClass = require('semantic-ui-react/dist/../src/elements/Button/ButtonGroup').default;
+exports.buttonGroupClass = require('semantic-ui-react/dist/commonjs/elements/Button/ButtonGroup').default;

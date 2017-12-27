@@ -1,3 +1,3 @@
 // module SemanticUI.GridRow
 
-exports.gridRowClass = require('semantic-ui-react/dist/../src/collections/Grid/GridRow').default;
+exports.gridRowClass = require('semantic-ui-react/dist/commonjs/collections/Grid/GridRow').default;

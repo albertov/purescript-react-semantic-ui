@@ -1,3 +1,3 @@
 // module SemanticUI.FeedDate
 
-exports.feedDateClass = require('semantic-ui-react/dist/../src/views/Feed/FeedDate').default;
+exports.feedDateClass = require('semantic-ui-react/dist/commonjs/views/Feed/FeedDate').default;
