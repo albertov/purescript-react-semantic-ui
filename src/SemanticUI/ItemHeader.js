@@ -1,3 +1,3 @@
 // module SemanticUI.ItemHeader
 
-exports.itemHeaderClass = require('semantic-ui-react/views/Item/ItemHeader').default;
+exports.itemHeaderClass = require('semantic-ui-react/dist/commonjs/views/Item/ItemHeader').default;

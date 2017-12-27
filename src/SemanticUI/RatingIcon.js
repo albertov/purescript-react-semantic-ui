@@ -1,3 +1,3 @@
 // module SemanticUI.RatingIcon
 
-exports.ratingIconClass = require('semantic-ui-react/modules/Rating/RatingIcon').default;
+exports.ratingIconClass = require('semantic-ui-react/dist/commonjs/modules/Rating/RatingIcon').default;

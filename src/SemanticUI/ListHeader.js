@@ -1,3 +1,3 @@
 // module SemanticUI.ListHeader
 
-exports.listHeaderClass = require('semantic-ui-react/elements/List/ListHeader').default;
+exports.listHeaderClass = require('semantic-ui-react/dist/commonjs/elements/List/ListHeader').default;

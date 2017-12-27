@@ -1,3 +1,3 @@
 // module SemanticUI.Responsive
 
-exports.responsiveClass = require('semantic-ui-react/addons/Responsive/Responsive').default;
+exports.responsiveClass = require('semantic-ui-react/dist/commonjs/addons/Responsive/Responsive').default;

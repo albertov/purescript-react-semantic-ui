@@ -1,3 +1,3 @@
 // module SemanticUI.StepContent
 
-exports.stepContentClass = require('semantic-ui-react/elements/Step/StepContent').default;
+exports.stepContentClass = require('semantic-ui-react/dist/commonjs/elements/Step/StepContent').default;

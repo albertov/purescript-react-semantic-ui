@@ -19,4 +19,4 @@ sed -i "s/progress = opt/progress_ = opt/g" src/SemanticUI/Progress.purs
 sed -i "s/options ::/options_ ::/g" src/SemanticUI/Dropdown.purs
 sed -i "s/options =/options_ =/g" src/SemanticUI/Dropdown.purs
 
-find src -name '*.js' -exec sed -i "s:dist/../src/::g" {} \;
+find src -name '*.js' -exec sed -i "s:dist/../src/:dist/commonjs/:g" {} \;

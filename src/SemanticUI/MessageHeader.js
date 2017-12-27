@@ -1,3 +1,3 @@
 // module SemanticUI.MessageHeader
 
-exports.messageHeaderClass = require('semantic-ui-react/collections/Message/MessageHeader').default;
+exports.messageHeaderClass = require('semantic-ui-react/dist/commonjs/collections/Message/MessageHeader').default;

@@ -1,3 +1,3 @@
 // module SemanticUI.Input
 
-exports.inputClass = require('semantic-ui-react/elements/Input/Input').default;
+exports.inputClass = require('semantic-ui-react/dist/commonjs/elements/Input/Input').default;

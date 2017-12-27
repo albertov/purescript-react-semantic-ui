@@ -1,3 +1,3 @@
 // module SemanticUI.Loader
 
-exports.loaderClass = require('semantic-ui-react/elements/Loader/Loader').default;
+exports.loaderClass = require('semantic-ui-react/dist/commonjs/elements/Loader/Loader').default;

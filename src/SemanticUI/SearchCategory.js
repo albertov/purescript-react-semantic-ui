@@ -1,3 +1,3 @@
 // module SemanticUI.SearchCategory
 
-exports.searchCategoryClass = require('semantic-ui-react/modules/Search/SearchCategory').default;
+exports.searchCategoryClass = require('semantic-ui-react/dist/commonjs/modules/Search/SearchCategory').default;

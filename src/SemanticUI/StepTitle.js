@@ -1,3 +1,3 @@
 // module SemanticUI.StepTitle
 
-exports.stepTitleClass = require('semantic-ui-react/elements/Step/StepTitle').default;
+exports.stepTitleClass = require('semantic-ui-react/dist/commonjs/elements/Step/StepTitle').default;

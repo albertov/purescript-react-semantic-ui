@@ -1,3 +1,3 @@
 // module SemanticUI.ListContent
 
-exports.listContentClass = require('semantic-ui-react/elements/List/ListContent').default;
+exports.listContentClass = require('semantic-ui-react/dist/commonjs/elements/List/ListContent').default;

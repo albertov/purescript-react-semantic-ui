@@ -1,3 +1,3 @@
 // module SemanticUI.RevealContent
 
-exports.revealContentClass = require('semantic-ui-react/elements/Reveal/RevealContent').default;
+exports.revealContentClass = require('semantic-ui-react/dist/commonjs/elements/Reveal/RevealContent').default;

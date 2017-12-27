@@ -1,3 +1,3 @@
 // module SemanticUI.Flag
 
-exports.flagClass = require('semantic-ui-react/elements/Flag/Flag').default;
+exports.flagClass = require('semantic-ui-react/dist/commonjs/elements/Flag/Flag').default;
