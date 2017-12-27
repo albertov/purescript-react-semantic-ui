@@ -1,0 +1,22 @@
+{
+  "name": "purescript-react-semantic-ui",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen": "./gen.sh"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "create-react-class": "^15.6.0",
+    "purescript-react-wrapper-gen": "albertov/purescript-react-wrapper-gen",
+    "react": "^15.6.1",
+    "react-docgen": "^3.0.0-beta6",
+    "react-dom": "^15.6.1"
+  },
+  "dependencies": {
+    "semantic-ui-react": "^0.77.1"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "purescript-react-semantic-ui",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/albertov/purescript-react-semantic-ui.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^3.1.0",
+    "purescript-react-dom": "^4.0.0",
+    "purescript-options": "^3.0.0"
+  },
+  "devDependencies": {
+    "purescript-console": "^3.0.0",
+    "purescript-node-fs-aff": "^4.0.0",
+    "purescript-yarn": "^2.0.0"
+  },
+  "resolutions": {
+    "purescript-foldable-traversable": "^3.6.1"
+  }
+}
