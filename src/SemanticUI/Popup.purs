@@ -31,8 +31,10 @@ hoverable :: Option PopupOption (Boolean)
 hoverable = opt "hoverable"
 inverted :: Option PopupOption (Boolean)
 inverted = opt "inverted"
-offset :: Option PopupOption (Number)
-offset = opt "offset"
+horizontalOffset :: Option PopupOption (Number)
+horizontalOffset = opt "horizontalOffset"
+verticalOffset :: Option PopupOption (Number)
+verticalOffset = opt "verticalOffset"
 on :: Option PopupOption (UnknownType)
 on = opt "on" -- union
 onClose :: Option PopupOption (EventHandlerOpt)

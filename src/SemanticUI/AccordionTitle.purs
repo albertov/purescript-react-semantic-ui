@@ -21,7 +21,7 @@ className :: Option AccordionTitleOption (String)
 className = opt "className"
 content :: Option AccordionTitleOption (UnknownType)
 content = opt "content" -- custom
-index :: Option AccordionTitleOption (Number)
-index = opt "index"
+index :: Option AccordionTitleOption (UnknownType)
+index = opt "index" -- union
 onClick :: Option AccordionTitleOption (EventHandlerOpt)
 onClick = opt "onClick"

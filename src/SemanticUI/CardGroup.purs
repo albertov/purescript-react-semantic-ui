@@ -13,6 +13,8 @@ cardGroup :: Options CardGroupOption -> Array ReactElement -> ReactElement
 cardGroup opts = createElement cardGroupClass (cardGroupProps opts)
 as :: Option CardGroupOption (UnknownType)
 as = opt "as" -- custom
+centered :: Option CardGroupOption (Boolean)
+centered = opt "centered"
 children :: Option CardGroupOption (Node)
 children = opt "children"
 className :: Option CardGroupOption (String)

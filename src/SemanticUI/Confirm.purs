@@ -25,3 +25,5 @@ onConfirm :: Option ConfirmOption (EventHandlerOpt)
 onConfirm = opt "onConfirm"
 open :: Option ConfirmOption (Boolean)
 open = opt "open"
+size :: Option ConfirmOption (UnknownType)
+size = opt "size" -- enum

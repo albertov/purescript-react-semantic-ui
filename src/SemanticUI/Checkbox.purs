@@ -25,6 +25,8 @@ disabled :: Option CheckboxOption (Boolean)
 disabled = opt "disabled"
 fitted :: Option CheckboxOption (Boolean)
 fitted = opt "fitted"
+id :: Option CheckboxOption (UnknownType)
+id = opt "id" -- union
 indeterminate :: Option CheckboxOption (Boolean)
 indeterminate = opt "indeterminate"
 label :: Option CheckboxOption (UnknownType)
